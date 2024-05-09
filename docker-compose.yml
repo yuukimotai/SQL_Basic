@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  mysql:
+    build: . #Dockerfileからビルドする
+    environment:
+      - MYSQL_ROOT_PASSWORD=273393 #コンテナ内のMySQLを起動する際のパスワードを設定
